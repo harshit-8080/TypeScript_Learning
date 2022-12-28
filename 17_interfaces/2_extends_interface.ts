@@ -1,17 +1,17 @@
 interface Book {
-    name:string,
+    name:string;
     price:number
 }
 
 interface Ebook extends Book {
     
-    fileSize:number,
-    format:string
+    fileSize:number;
+    format:string;
 }
 
 interface AudioBook extends Ebook {
     
-    owner:string
+    owner:string;
 }
 
 const book1:Book = {
