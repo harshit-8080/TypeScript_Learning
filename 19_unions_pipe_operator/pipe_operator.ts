@@ -23,3 +23,6 @@ function gun(s:string | number[]) {
 
 console.log(gun("harshit"));
 console.log(gun([10,20,30,40]));
+
+
+
